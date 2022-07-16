@@ -8,7 +8,7 @@ import pandas as pd
 import pickle
 
 st.title('Penguin Classifier')
-st.write("This app uses 6 inputs to predict the specise of poengion using "
+st.write("This app uses 6 inputs to predict the specise of penguin using "
          "a model built on the Palmer's Penguins dataset. Use the form below "
          "to get started!")
 
