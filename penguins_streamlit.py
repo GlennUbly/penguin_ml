@@ -64,14 +64,14 @@ new_prediction = rfc.predict([[bill_length,
                                sex_male]])
 prediction_species = unique_penguin_mapping[new_prediction][0]
 
-st.subheader("Perdicting Your Penguin's Species:")
+st.subheader("Predicting Your Penguin's Species:")
 st.write('We predict your penguin is of the {} species'.
          format(prediction_species))
 st.write('We used a machine learning (Random Forest) model to predict the '
-         'species, the features used in this prediction are ranked in relative'
+         'species; the features used in this prediction are ranked in relative'
          'importance below.')
 st.image('feature_importance.png')
-st.write('Below are the histograms for each continuous variable sparated by '
+st.write('Below are the histograms for each continuous variable separated by '
          'penguin species. The vertical line represents your inputted value.')
 
 fig, ax = plt.subplots()
