@@ -30,7 +30,7 @@ with st.form('use_input') :
                                   'Male'])
     bill_length = st.number_input('Bill Length (mm)',
                                   min_value=0)
-    bill_depth = st.number_input('Bill Depgth (mm)',
+    bill_depth = st.number_input('Bill Depth (mm)',
                                   min_value=0)
     flipper_length = st.number_input('Flipper Length (mm)',
                                   min_value=0)
