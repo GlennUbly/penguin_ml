@@ -9,7 +9,7 @@ import pickle
 
 st.title('Penguin Classifier')
 st.write("This app uses 6 inputs to predict the specise of poengion using "
-         "a model built on the Palmer's Pengins dataset. Use the form below "
+         "a model built on the Palmer's Penguins dataset. Use the form below "
          "to get started!")
 
 penguin_df = pd.read_csv('penguins.csv')
@@ -36,7 +36,7 @@ with st.form('use_input') :
                                   min_value=0)
     body_mass = st.number_input('Body Mass (g)',
                                   min_value=0)
-    st.form_submit_buton()
+    st.form_submit_button()
     
 
 island_biscoe, island_dream, island_torgerson = 0, 0, 0
