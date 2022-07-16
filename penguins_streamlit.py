@@ -36,7 +36,9 @@ with st.form('use_input') :
                                   min_value=0)
     body_mass = st.number_input('Body Mass (g)',
                                   min_value=0)
+    st.form_submit_buton()
     
+
 island_biscoe, island_dream, island_torgerson = 0, 0, 0
 if island == 'Biscoe' :
     island_biscoe = 1
