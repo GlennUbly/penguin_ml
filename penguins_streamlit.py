@@ -84,7 +84,7 @@ st.pyplot(ax)
 fig, ax = plt.subplots()
 ax = sns.displot(x=penguin_df['bill_depth_mm'],
                  hue=penguin_df['species'])
-plt.axvline(bill_length)
+plt.axvline(bill_depth)
 plt.title('Bill Depth by Species')
 st.pyplot(ax)
 
